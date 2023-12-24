@@ -160,4 +160,8 @@ cython_debug/
 #.idea/
 
 # Aditional Data Challenge Files
-Data_Challenge_PHM2023_*/
+data/
+mfcc/
+data_mfcc/
+data_mfcc2/
+data_periodogram/
