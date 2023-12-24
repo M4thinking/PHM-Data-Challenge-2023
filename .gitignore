@@ -164,4 +164,11 @@ data/
 mfcc/
 data_mfcc/
 data_mfcc2/
+data_vms/
 data_periodogram/
+scripts/botorch_logs/
+scripts/logs/
+test_logs/
+*pdf
+*ipynb
+ax/*
