@@ -1,0 +1,85 @@
+# Parámetros de entrenamiento
+hiper-parameters:
+  # Epocas
+  - name: epochs
+    type: fixed
+    value: 100
+    value_type: int
+
+  # Learning rate
+  - name: lr
+    type: range
+    bounds:
+      - 1.0E-6
+      - 1.0E-2
+    log_scale: True
+    value_type: float
+
+  # Weight decay
+  - name: wd
+    type: range
+    bounds: 
+      - 1.0E-8
+      - 1.0E-3
+    log_scale: True
+    value_type: float
+
+  # Dropout
+  - name: dropout
+    type: range
+    bounds: 
+      - 0.1
+      - 0.4
+    value_type: float
+
+  # Parámetros del modelo
+
+  # Espacio latente
+  - name: hidden_size
+    type: range
+    bounds: 
+      - 15
+      - 128
+    value_type: int
+
+  - name: h1
+    type: range
+    bounds: 
+      - 32
+      - 256
+    value_type: int
+
+  - name: h2
+    type: range
+    bounds: 
+      - 32
+      - 256
+    value_type: int
+
+  - name: h3
+    type: range
+    bounds: 
+      - 32
+      - 256
+    value_type: int
+
+  - name: h4
+    type: range
+    bounds: 
+      - 32
+      - 256
+    value_type: int
+
+  - name: h5
+    type: range
+    bounds: 
+      - 32
+      - 256
+    value_type: int
+
+  - name: h6
+    type: range
+    bounds: 
+      - 32
+      - 256
+    value_type: int
