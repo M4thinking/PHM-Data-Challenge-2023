@@ -1,0 +1,15 @@
+dropout: 0.2
+freeze_encoder: true
+hidden_size: 64
+hidden_sizes:
+- 64
+- 32
+- 16
+input_size:
+- 4
+- 64
+- 64
+learning_rate: 0.001
+num_classes: 7
+output_size: 7
+wd: 0.0
