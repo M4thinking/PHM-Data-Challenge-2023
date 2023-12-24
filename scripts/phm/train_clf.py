@@ -76,6 +76,6 @@ def main(version_vae, version_cr, log_dir, name, ae_name = "gear_vae_conv", devi
     
 if __name__ == "__main__":
     version_vae = 0
-    version_cr = 29
+    version_cr = 30
     log_dir = "./test_logs/"
     main(version_vae, version_cr, log_dir, name = "gear_cr_conv", device="cuda")
